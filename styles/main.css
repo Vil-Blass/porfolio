@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabeza{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.cabeza h1{
+    font-size: 40px;
+}
+.cabeza nav{
+    background-color: #fff;
+    padding: 10px;
+}
+.cabeza nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabeza nav ul li{
+    list-style: none;
+}
+.cabeza nav ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+}
+.cabeza nav ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.contenido{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.contenido h2{
+    font-size: 40px;
+}
+.contenido p{
+    font-size: 20px;
+}
+.proyecto{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+.proyecto h3{
+    font-size: 30px;
+}
+.proyecto p{
+    font-size: 20px;
+}
+.redes{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.redes ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.redes ul li{
+    list-style: none;
+}
+.redes ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+}
+.redes ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    font-size: 20px;
+}
+/* Path: styles\responsive.css */
+@media screen and (max-width: 768px){
+    .cabeza nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .cabeza nav ul li{
+        list-style: none;
+    }
+    .cabeza nav ul li a{
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .cabeza nav ul li a:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    .redes ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .redes ul li{
+        list-style: none;
+    }
+    .redes ul li a{
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .redes ul li a:hover{
+        background-color: #000;
+        color: #fff;
+    }
+}
+/* Path: styles\variables.css */
+:root{
+    --color-primario: #000;
+    --color-secundario: #fff;
+}
+
